@@ -7,7 +7,7 @@ public class UpCommand extends ChainCommand
 {
 
 
-    protected UpCommand() {
+    public UpCommand() {
         super("up");
     }
 

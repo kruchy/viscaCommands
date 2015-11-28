@@ -6,7 +6,7 @@ package pl.agh.kis.mult.v01.command;
 public class SetAddressCommand  extends ChainCommand{
 
 
-    protected SetAddressCommand() {
+    public SetAddressCommand() {
         super("set");
     }
 

@@ -6,7 +6,7 @@ package pl.agh.kis.mult.v01.command;
 public class DownCommand extends ChainCommand {
 
 
-    protected DownCommand() {
+    public DownCommand() {
         super("down");
     }
 

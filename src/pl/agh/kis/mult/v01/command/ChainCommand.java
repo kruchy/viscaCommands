@@ -15,7 +15,7 @@ public abstract class ChainCommand {
     protected byte head = (byte) 0x88;
     protected byte tail = (byte) 0xFF;
 
-    protected ChainCommand(String commandName)
+    public ChainCommand(String commandName)
     {
         this.commandName = commandName;
     }
